@@ -10,5 +10,13 @@
 
     "window.commandCenter": true,
 
-    "python.linting.flake8Enabled" : true
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501",
+        "--ignore=F401",
+        "--max-line-length=150",
+        "--ignore=E402"
+      ],
+
+    "editor.accessibilitySupport": "off"
 }

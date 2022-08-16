@@ -2,11 +2,11 @@
     "workbench.iconTheme": "eq-material-theme-icons-light",
     "workbench.colorTheme": "Material Theme",
 
-    "editor.fontFamily" : "JetBrains Mono",
-    "editor.fontSize" : 10,
+    "editor.fontFamily" : "Fira Code",
+    "editor.fontSize" : 11,
     "terminal.integrated.fontFamily" : "Fira Code, Hack Nerd Font",
     "editor.fontLigatures" : true,
-    "terminal.integrated.fontSize": 10,
+    "terminal.integrated.fontSize": 11,
 
     "window.commandCenter": true,
 

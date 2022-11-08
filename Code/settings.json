@@ -1,26 +1,36 @@
 {
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.accessibilitySupport": "off",
   "workbench.iconTheme": "eq-material-theme-icons-light",
-  "workbench.colorTheme": "Material Theme",
-  "editor.fontFamily": "Fira Code",
-  "editor.fontSize": 11,
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
   "editor.fontLigatures": true,
-  "terminal.integrated.fontSize": 11,
-  "window.commandCenter": true,
-  "python.linting.flake8Enabled": true,
+  "python.formatting.autopep8Args": [
+    "--max-line-length",
+    "150",
+    "--ignore",
+    "E70",
+    "--ignore",
+    "E402"
+  ],
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "python.linting.flake8Args": [
     "--ignore=E501",
     "--ignore=F401",
     "--max-line-length=150",
     "--ignore=E402"
   ],
-  "editor.accessibilitySupport": "off",
-  "editor.guides.bracketPairs": "active",
+  "python.linting.flake8Enabled": true,
   "editor.formatOnSave": true,
-  "python.formatting.autopep8Args": [
-    "--max-line-length",
-    "150",
-    "--ignore",
-    "E70"
-  ]
+  "editor.guides.bracketPairs": "active",
+  "workbench.colorTheme": "Material Theme",
+  "window.commandCenter": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "git.autofetch": true,
+  "notebook.lineNumbers": "on",
+  "editor.fontSize": 10,
+  "terminal.integrated.fontSize": 10,
+  "isort.check": true,
+  "window.zoomLevel": 1,
+  "python.formatting.provider": "black"
 }
